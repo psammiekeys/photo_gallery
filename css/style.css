@@ -1,0 +1,297 @@
+/*************** General style ***************/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    box-sizing: border-box;
+}
+
+/************ Index style *************/
+
+.wrapper {
+    width:100%;
+    height:100vh;
+    background-color: pink;
+}
+
+.banner-container {
+    float:left;
+    height:100vh;
+    width:60%;
+}
+
+.banner {
+    margin-top: 25%;
+    margin-left:20%;
+    width:50rem;
+    font-size: 15rem;
+    color:#c80;
+    opacity:0.2;
+}
+
+.account {
+    height:70vh;
+    width:25%;
+    float:right;
+    margin-right:15%;
+    margin-top: 6%;
+}
+
+.signs {
+    padding:2rem;
+    padding-top:3.5rem;
+}
+
+.signup {
+    background-color: #ffe;
+}
+
+.signin {
+    background-color: #ffd;
+}
+
+.field {
+    padding:.5rem;
+}
+
+.input {
+    height:5rem;
+    width:100%;
+    background-color: transparent;
+    border:solid #fec 1px;
+    padding:1rem;
+    font-size:1.5rem;
+}
+
+.signup .field .btn {
+    width:100%;
+    height: 5rem;
+    background-color: #fdb;
+    border:none;
+    color:#fff;
+    font-size:1.7rem;
+}
+
+.signin .field .btn {
+    width:100%;
+    height: 5rem;
+    background-color: #fb9;
+    border:none;
+    color:#fff;
+    font-size:1.7rem;
+}
+
+.input:focus {
+    outline:none;
+}
+
+.btn:focus {
+    outline:none;
+}
+
+/*************** Gallery style ************/
+
+.header {
+    height: 90vh;
+    width: 100%;
+    background-color: transparent;
+}
+
+.header::after {
+    height: 100vh;
+    width:100%;
+    background-color: royalblue;
+    clip-path: circle(63% at 2% 20%);
+    content: "";
+    z-index:-1;
+    display:inline-block;
+    position:absolute;
+    top:0; 
+    opacity: 0.4;
+}
+
+.title {
+    position: absolute;
+    left:50%;
+    top:40%;
+    transform: translate(-50%, -50%);
+    font-size: 15rem;
+    color:royalblue;
+    opacity:0.2;
+}
+
+.mini-title {
+    position: absolute;
+    left:50%;
+    top:60%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color:#c80;
+    opacity:0.4;
+}
+
+.gallery {
+    margin:5rem;
+    padding:5rem;
+    width:90%;
+}
+
+.photo {
+    float:left;
+    margin:0px;
+    padding:0px;
+    width:25%;
+}
+
+.likes {
+    position: relative;
+    top:-2.5rem;
+    color:white;
+    font-size:1.5rem;
+    float:right;
+    right:.5rem;
+}
+
+
+.actions {
+    margin-left: 20%;
+    margin-top: 3rem;
+}
+
+.pictures {
+    height:100vh;
+    width:20%;
+    float:left;
+    background-color: #fff;
+    /* border-right:solid #efe .25rem; */
+    overflow: auto;
+}
+
+.picture {
+    padding:1rem;
+    float:left;
+    width:70%;
+}
+
+
+.delete{
+    float:left;
+}
+
+.thumbs {
+    font-size: 1.3rem;
+    position:relative;
+    top:2.3rem;
+}
+
+.fa-times {
+    font-size: 1.3rem;
+    position:relative;
+    top:2.3rem;
+    margin-left:1.5rem;
+}
+
+.custom-name {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    position:relative;
+    top:-1.3rem;
+    margin-left:1rem;
+}
+
+.img {
+    width:5rem;
+    border-radius: 50px;
+}
+
+.members {
+    height:100vh;
+    width:20%;
+    float:right;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.img-banner {
+    margin-top: 10%;
+    margin-left:20%;
+    width:50rem;
+}
+
+.img-wrapper {
+    width:100%;
+    height:10vh;   
+}
+
+.img-container {
+    float:left;
+    height:100vh;
+    width:80%;
+    background-color: transparent;
+}
+
+.img-container::after {
+    width:80%;
+    height:100vh;
+    background-color: royalblue;
+    opacity:0.1;
+    z-index: -1;
+    content:"";
+    display:inline-block;
+    position:absolute;
+    top:0%;
+}
+
+.img-name {
+    margin-top: 5%;
+    text-align: center;
+    position:relative;
+    left:30%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color:royalblue;
+    opacity: 0.5;
+}
+
+#like-list {
+    font-size:1.5rem;
+    color:royalblue;
+}
+
+#like {
+    position: relative;
+    top:-.2rem;
+    margin-left:1rem;
+    font-size:4rem;
+    color:royalblue;
+    opacity:0.3;
+}
+
+#previous {
+    margin-left:20rem;
+    font-size:4rem;
+    color:royalblue;
+    opacity:0.3;
+}
+
+.username {
+    margin:2rem;
+    color:#fff;
+    font-size:2rem;
+}
+
+.fa-power-off {
+    font-size:4rem;
+    float:right;
+    margin-right:5rem;
+    color:#c80;
+    opacity:0.6;
+}
